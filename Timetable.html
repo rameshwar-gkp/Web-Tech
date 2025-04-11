@@ -1,19 +1,12 @@
 <html>
     <title>Time Table</title>
     <head>
-        <style>
-            td{
-                text-align: center;
-            }
-            td{
-                text-align:center;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <h1 align="center">Time Table MCA A2</h1>
 
-        <table border="line">
+        <table>
             <h2>G.L. Bajaj Institute of Techonology And Management,Greater Noida</h2>
             <th>DAY/TIME</th>
             <th>09:10AM-10:00AM</th>
@@ -28,62 +21,62 @@
 
             <tr>
                 <th>Monday</th>
-                <td bgcolor="yellow">(OS)BMC 203 (NKS)</td>
-                <td bgcolor="skyblue">(DBMS)BMC 204 (NS)</td>
-                <td bgcolor="gray">(OOPs)BMC 202 (GV)</td>
-                <td bgcolor="#6595">Sports & Yoga</td>
-                <td rowspan="6">Lunch</td>
-                <td bgcolor="orange">(DSA)BMC 205 (SK)</td>
-                <td bgcolor="pink">(WT)BMC 201(DK)</td>
-                <td colspan="2"> OOPs LAB(G1) BMC 252(GV)+(G2)BMC 252(BM) (207)</td>
+                <td id="os">(OS)BMC 203 (NKS)</td>
+                <td id="dbms">(DBMS)BMC 204 (NS)</td>
+                <td id="oops">(OOPs)BMC 202 (GV)</td>
+                <td id="sy">Sports & Yoga</td>
+                <td id="lnc" rowspan="6">Lunch</td>
+                <td id="dsa">(DSA)BMC 205 (SK)</td>
+                <td id="wt">(WT)BMC 201(DK)</td>
+                <td id="lab" colspan="2"> OOPs LAB(G1) BMC 252(GV)+(G2)BMC 252(BM) (207)</td>
             </tr>
 
             <tr>
                 <th>Tuesday</th>
-                <td colspan="2" bgcolor="#6595"> Verbal </td>
-                <td colspan="2" bgcolor="#6595"> Aptitude</td>
-                <td bgcolor="gray">(OOPs)BMC 202 (GV)</td>
-                <td bgcolor="pink">(WT)BMC 201(DK)</td>
-                <td colspan="2"> DBMS LAB(G1) BMC 253(NS)+(G2)BMC 253(SS) (207)</td>
+                <td id="vb" colspan="2"> Verbal </td>
+                <td id="apt" colspan="2" > Aptitude</td>
+                <td id="oops">(OOPs)BMC 202 (GV)</td>
+                <td id="wt">(WT)BMC 201(DK)</td>
+                <td id="dbmslab" colspan="2"> DBMS LAB(G1) BMC 253(NS)+(G2)BMC 253(SS) (207)</td>
                 
             </tr>
             <tr>
                 <th>Wednesday</th>
-                <td bgcolor="orange">(DSA)BMC 205 (SK)</td>
-                <td bgcolor="pink">(WT)BMC 201(DK)</td>
-                <td colspan="2"> DSA LAB(G1) BMC 254(SK)+(G2)BMC 254(GJ) (207)</td>
-                <td bgcolor="gray">(OOPs)BMC 202 (GV)</td>
-                <TD bgcolor="skyblue">(DBMS)BMC 204 (NS)</TD>
-                <td colspan="2"> ECA</td>
+                <td id="dsa">(DSA)BMC 205 (SK)</td>
+                <td id="wt">(WT)BMC 201(DK)</td>
+                <td id="dsalab" colspan="2"> DSA LAB(G1) BMC 254(SK)+(G2)BMC 254(GJ) (207)</td>
+                <td id="oops">(OOPs)BMC 202 (GV)</td>
+                <TD id="dbms">(DBMS)BMC 204 (NS)</TD>
+                <td id="eca" colspan="2"> ECA</td>
 
 
             </tr>
             <tr>
                 <th>Thrusday</th>
-                <TD>(DBMS)BMC 204 (NS)</TD>
-                <td>(DSA)BMC 205 (SK)</td>
-                <td colspan="2"> DSA LAB(G1) BMC 254(SK)+(G2)BMC 254(GJ) (207)</td>
-                <td>WT LAB(G1) BMC 251(DK)+(G2)BMC 251(SuK) (207)</td>
-                <td>(OS)BMC 202 (NKS)</td>
-                <td>(OOPs)BMC 202 (GV)</td>
-                <td> OOPs LAB(G1) BMC 252(GV)+(G2)BMC 252(BM) (207)</td>
+                <TD id="dbms">(DBMS)BMC 204 (NS)</TD>
+                <td id="dsa">(DSA)BMC 205 (SK)</td>
+                <td id="dsalab" colspan="2"> DSA LAB(G1) BMC 254(SK)+(G2)BMC 254(GJ) (207)</td>
+                <td id="dsalab">WT LAB(G1) BMC 251(DK)+(G2)BMC 251(SuK) (207)</td>
+                <td id="os">(OS)BMC 202 (NKS)</td>
+                <td id="oops">(OOPs)BMC 202 (GV)</td>
+                <td id="oopslab"> OOPs LAB(G1) BMC 252(GV)+(G2)BMC 252(BM) (207)</td>
             
 
             </tr>
             <tr>
                 <th>Friday</th>
-                <td colspan="2">Technical</td>
-                <TD>(DBMS)BMC 204 (NS)</TD>
-                <td>(OS)BMC 202 (NKS)</td>
-                <td>(WT)BMC 201(DK)</td>
-                <td>(DSA)BMC 205 (SK)</td>
-                <td colspan="2">WT LAB(G1) BMC 251(DK)+(G2)BMC 251(SuK) (207)</td>
+                <td id="tech" colspan="2">Technical</td>
+                <TD id="dbms">(DBMS)BMC 204 (NS)</TD>
+                <td id="os">(OS)BMC 202 (NKS)</td>
+                <td id="wt">(WT)BMC 201(DK)</td>
+                <td id="dsa">(DSA)BMC 205 (SK)</td>
+                <td id="wtlab" colspan="2">WT LAB(G1) BMC 251(DK)+(G2)BMC 251(SuK) (207)</td>
                 
                 
             </tr>
             <tr>
                 <th>Saturday</th>
-                <td colspan="2">Technical</td>
+                <td id="tech" colspan="2">Technical</td>
             </tr>
 
 
