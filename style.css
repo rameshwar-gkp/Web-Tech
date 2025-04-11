@@ -1,0 +1,39 @@
+table,td{
+    text-align: center;
+    border:1px solid;
+   
+}
+th{
+    color: white;
+    font-style: bold;
+    background-color: black;
+}
+#os{
+    background-color: yellow;
+}
+
+#dbms{
+    background-color: skyblue;
+}
+#oops{
+    background-color: grey;
+}
+#dsa{
+    background-color: orange;
+}
+#wt
+{
+    background-color: pink;
+}
+#oopslab{
+    background-color: white;
+}
+#dbmslab{
+
+}
+#tech{
+    background-color: green;
+}
+#apt,#vb,#eca{
+    background-color: greenyellow;
+}
