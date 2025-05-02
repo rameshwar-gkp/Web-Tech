@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>
+            Regestration
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </HEAD>
+    <BODY>
+        <form novalidate>
+        <div><h2>Regestration</h2></div>
+        <div><label>Name:</label><input id="name" type="text"></div>
+        <div><label>Father Name:</label><input id="fname" type="text"></div>
+        <div><lable>Postal Address:</lable><input id="address" type="text"></div>
+        <div><lable>State:</lable><select id="state" type="search">
+            <option>---Select---</option>
+            <option>Delhi</option>
+            <option>Uttar Pradesh</option>
+            <option>Goa</option>
+            </select>
+        </div>
+        <div><label>PIN Code:</label><input id="pin" type="number"></div>
+        <div><label>Email:</label><input id="email" type="email"></div>
+        <div><lable>Contact No:</lable><input id="contact" type="number"></div>
+        <button id="reset">Reset</button><span><button id="submit" onclick="submit()">Submit</button></span>
+        </form>
+        <script type="text/javascript" src="regestration.js"></script>
+    </BODY>
+</HTML>

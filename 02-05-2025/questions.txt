@@ -1,0 +1,3 @@
+Questions
+write a program using java script for form validation and use getElement byid or focus ,alert in the same program
+wap using java script for in-built array methods
